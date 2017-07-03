@@ -101,6 +101,7 @@ ___
 >"1.3  - 05/10/2011: Join LFG channel without being on a city por Opcode187"
 
 >"2.2.89 - 06/08/2012: ICC: TheLichKing temp fix to height issues by Jildor"
+
 >"3.71 - 18/07/2012: Shaman: Grounding totem (8177) also absorbs polymorph effect por Vincent-Michael"
 
 >"4.9.8  - 04/10/2012: Howling Fjord: Scare the guano out of them! por Muzashi"
