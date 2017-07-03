@@ -33,13 +33,14 @@ Dentro de cada milestone hay una subdivision que ha de respetarse adicionalmente
 criterio unificado de que debe ir dentro de cada numeracion y como debe hacerse, es por
 ello que detallaremos esta parte:
 
-###### Milestone 2.0
 ___
+###### Milestone 2.0
 - Raids
 - Dungeons
 
-###### Milestone 3.0
 ___
+###### Milestone 3.0
+
 - 3.1 - Druid
 - 3.2 - Hunter
 - 3.3 - Mage
@@ -52,8 +53,9 @@ ___
 - 3.10 - Trinkets
 - 3.11 - Special
 
-###### Milestone 4.0
 ___
+###### Milestone 4.0
+
 - 4.0 - Misiones de clases
 - 4.1 - Especiales: acá van misiones especiales que no estén asociada a una zona en específico
 - 4.2 - Kalimdor y Reinos del Este
