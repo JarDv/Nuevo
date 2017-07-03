@@ -70,10 +70,10 @@ tópico en concreto:
 
 ##### MilestoneNumero Nombre: Descripción
 ___
->"2.X Instance: Boss texto, ids o sql"   -> 2.20.15 TheOculus: Eregos some tweaks
->"3.X Clase: Texto e ID"                 -> 3.51 DK: Raise ally (61999)
->"4.X Zona: Quest texto script ID o sql" -> 4.8.36 Tundra Boreal: Fix for quest Drake Hunt
->"7.X Custom: texto explicativo"         -> 7.11 Custom: Gs Command implementation
+>"2.X Instance: Boss texto, ids o sql"   -> 2.20.15 TheOculus: Eregos some tweaks"
+>"3.X Clase: Texto e ID"                 -> 3.51 DK: Raise ally (61999)"
+>"4.X Zona: Quest texto script ID o sql" -> 4.8.36 Tundra Boreal: Fix for quest Drake Hunt"
+>"7.X Custom: texto explicativo"         -> 7.11 Custom: Gs Command implementation"
 
 Los nombres de archivos que describan los cambios en sql, serán sin espacios, 
 solo guiones bajos son aceptados y se ajustarán a la cronología en la carpeta /reanemu, 
@@ -92,11 +92,11 @@ durante el proceso de desarrollo, y se hará así:
 
 ##### MilestoneNumero - Fecha: NombreFeature: Descripcion por Autor
 ___
->0.19 - 19/04/2012: SOAP server information commands por Eilo
->1.3  - 05/10/2011: Join LFG channel without being on a city por Opcode187
->2.2.89 - 06/08/2012: ICC: TheLichKing temp fix to height issues by Jildor
->3.71 - 18/07/2012: Shaman: Grounding totem (8177) also absorbs polymorph effect por Vincent-Michael
->4.9.8  - 04/10/2012: Howling Fjord: Scare the guano out of them! por Muzashi
+>"0.19 - 19/04/2012: SOAP server information commands por Eilo"
+>"1.3  - 05/10/2011: Join LFG channel without being on a city por Opcode187"
+>"2.2.89 - 06/08/2012: ICC: TheLichKing temp fix to height issues by Jildor"
+>"3.71 - 18/07/2012: Shaman: Grounding totem (8177) also absorbs polymorph effect por Vincent-Michael"
+>"4.9.8  - 04/10/2012: Howling Fjord: Scare the guano out of them! por Muzashi"
 
 Otra cosa que hay que tomar en cuenta es el hecho de que si algo es de código de otra 
 persona  o equipo de personas en concreto hay que mencionarlo, y si nosotros hacemos 
