@@ -14,7 +14,7 @@ con un mínimo de esfuerzo.
 
 -El repositorio no puede ser un desorden por lo que se fijarán metas concretas en 7 MILESTONES:
 
-|   Milestone   | Description |
+|   Milestone-_._   | Description |
 | ------------- | ----------- |
 | Milestone-0.0 | -- Características principales y adicionales para el emulador
 | Milestone-1.0 | -- Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
