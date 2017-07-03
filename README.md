@@ -8,23 +8,23 @@ con el objetivo de mantener un proyecto legible y que brinde trazabilidad
 con un mínimo de esfuerzo.
 
 ## Organización del trabajo
+___
 
 
 ### Milestones
 
--El repositorio no puede ser un desorden por lo que se fijarán metas concretas en 7 MILESTONES:
+- El repositorio no puede ser un desorden por lo que se fijarán metas concretas en 7 MILESTONES:
 
-|   Milestone-_._   | Description |
+|   Milestone   | Description |
 | ------------- | ----------- |
-| Milestone-0.0 | -- Características principales y adicionales para el emulador
-| Milestone-1.0 | -- Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
-| Milestone-2.0 | -- Mejoras en Instances y dungeons, escencialmente para darles funcionalidad y detalles para tenerlas lo mas cercano a blizzlike, solucion de bugs relativos a las mismas, implementacion de nuevas scripts.
-| Milestone-3.0 | -- Arreglos a Spells, sobre todo para estabilidad del pve y del pvp dentro de los reinos.
-| Milestone-4.0 | -- Arreglos en quests, y cadenas de misión, esto incluye scripts en c++ y SmartAI.
-| Milestone-5.0 | -- Traducciones, e inclusión de varios dentro de tablas y strings del emulador, ya sea en c++ o en sqls.
-| Milestone-6.0 | -- Arreglos en eventos de mundo, logros y varios, con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen en las demas milestones.
-| Milestone-7.0 | -- Código custom, utilitario y caracteristicas interesantes varias.
-
+| Milestone 0.0 | -- Características principales y adicionales para el emulador
+| Milestone 1.0 | -- Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
+| Milestone 2.0 | -- Mejoras en Instances y dungeons, escencialmente para darles funcionalidad y detalles para tenerlas lo mas cercano a blizzlike, solucion de bugs relativos a las mismas, implementacion de nuevas scripts.
+| Milestone 3.0 | -- Arreglos a Spells, sobre todo para estabilidad del pve y del pvp dentro de los reinos.
+| Milestone 4.0 | -- Arreglos en quests, y cadenas de misión, esto incluye scripts en c++ y SmartAI.
+| Milestone 5.0 | -- Traducciones, e inclusión de varios dentro de tablas y strings del emulador, ya sea en c++ o en sqls.
+| Milestone 6.0 | -- Arreglos en eventos de mundo, logros y varios, con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen en las demas milestones.
+| Milestone 7.0 | -- Código custom, utilitario y caracteristicas interesantes varias.
 
 
 ### Descripción Milestones
@@ -33,42 +33,42 @@ Dentro de cada milestone hay una subdivision que ha de respetarse adicionalmente
 criterio unificado de que debe ir dentro de cada numeracion y como debe hacerse, es por
 ello que detallaremos esta parte:
 
-== Milestone2.0: ==
+###### Milestone 2.0
+___
+- Raids
+- Dungeons
 
-- Raids -
-- Dungeons -
+###### Milestone 3.0
+___
+- 3.1 - Druid
+- 3.2 - Hunter
+- 3.3 - Mage
+- 3.4 - Paladin
+- 3.5 - Priest
+- 3.6 - Rogue
+- 3.7 - Shaman
+- 3.8 - Warlock
+- 3.9 - Warrior
+- 3.10 - Trinkets
+- 3.11 - Special
 
-== Milestone3.0: ==
+###### Milestone 4.0
+___
+- 4.0 - Misiones de clases
+- 4.1 - Especiales: acá van misiones especiales que no estén asociada a una zona en específico
+- 4.2 - Kalimdor y Reinos del Este
+- 4.3 - Terrallende
 
-3.1 - Druid
-3.2 - Hunter
-3.3 - Mage
-3.4 - Paladin
-3.5 - Priest
-3.6 - Rogue
-3.7 - Shaman
-3.8 - Warlock
-3.9 - Warrior
-3.10 - Trinkets
-3.11 - Special
-
-== Milestone4.0: ==
-
-4.0 - Misiones de clases
-4.1 - Especiales: acá van misiones especiales que no estén asociada a una zona en específico
-4.2 - Kalimdor y Reinos del Este
-4.3 - Terrallende
-
-
+___
 ### Commits
 
-Cada COMMIT se escribirá por cada una de los cambios mínimos que hagan referentes al mismo
+* Cada COMMIT se escribirá por cada una de los cambios mínimos que hagan referentes al mismo
 milestone-tema y se clasificarán también con una estructura para que asemeje a un solo 
 tópico en concreto:
 
-MilestoneNumero Nombre: Descripción
---------------- ------- -----------
-"2.X Instance: Boss texto, ids o sql"   -> 2.20.15 TheOculus: Eregos some tweaks
+##### MilestoneNumero Nombre: Descripción
+___
+>"2.X Instance: Boss texto, ids o sql"   -> 2.20.15 TheOculus: Eregos some tweaks
 "3.X Clase: Texto e ID"                 -> 3.51 DK: Raise ally (61999)
 "4.X Zona: Quest texto script ID o sql" -> 4.8.36 Tundra Boreal: Fix for quest Drake Hunt
 "7.X Custom: texto explicativo"         -> 7.11 Custom: Gs Command implementation
@@ -76,13 +76,10 @@ MilestoneNumero Nombre: Descripción
 Los nombres de archivos que describan los cambios en sql, serán sin espacios, 
 solo guiones bajos son aceptados y se ajustarán a la cronología en la carpeta /reanemu, 
 ya sea en mangos, characters o realm de acuerdo a lo que corresponda cada query o grupo en 
-concreto asi:
-
-año_mes_dia_numero mayor a 100_carpeta_texto_explicativo.sql
------------ ------------------ ------- -------------------------------
-2011_09_01_100_world_wintergrasp_turrets.sql
-2012_07_14_100_characters_history.sql
-2009_01_26_100_auth_premium.sql
+concreto asi: año_mes_dia_numero mayor a 100_carpeta_texto_explicativo.sql
+> "2011_09_01_100_world_wintergrasp_turrets.sql"
+"2012_07_14_100_characters_history.sql"
+"2009_01_26_100_auth_premium.sql"
 
 Ojo, siempre igual a cien, para diferenciarlos de cualquier otro sql, incluyendo los de tc.
 
@@ -91,7 +88,7 @@ documentado algun cambio por fecha y quien lo hizo, de este modo si se depreca o
 vuelve a incluir en la branch principal, no se pierda y no haya informacion variante 
 durante el proceso de desarrollo, y se hará así:
 
-MilestoneNumero - Fecha: NombreFeature: Descripcion por Autor
+##### MilestoneNumero - Fecha: NombreFeature: Descripcion por Autor
 ---- --------- --------- -----------------------
 0.19 - 19/04/2012: SOAP server information commands por Eilo
 1.3  - 05/10/2011: Join LFG channel without being on a city por Opcode187
@@ -106,10 +103,10 @@ y el de ReanEmu,  sobre todo si en una script se le ha hecho mejoras notables y 
 
  * Copyright (C) 2008-2012 cMANGOS <https://github.com/cmangos/>
  * Copyright (C) 2010-2012 WoWRean <http://www.wowrean.es/>
- * Copyright (C) 2009-2012 Eilo <https://github.com/eilo/>
+ * Copyright (C) 2009-2012 Eilo <https://github.com/JarDv/>
 
 
-
+___
 ### Workflow
 
 Nos basaremos en el juego que nos dan las branches para organizar adecuadamente el 
