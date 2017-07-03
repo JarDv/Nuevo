@@ -16,16 +16,25 @@ con un mínimo de esfuerzo.
 
 |   Milestone   | Description |
 | ------------- | ----------- |
-| Milestone 0.0 | -- Características principales y adicionales para el emulador
-| Milestone 1.0 | -- Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
-| Milestone 2.0 | -- Mejoras en Instances y dungeons, escencialmente para darles funcionalidad y detalles para tenerlas lo mas cercano a blizzlike, solucion de bugs relativos a las mismas, implementacion de nuevas scripts.
-| Milestone 3.0 | -- Arreglos a Spells, sobre todo para estabilidad del pve y del pvp dentro de los reinos.
-| Milestone 4.0 | -- Arreglos en quests, y cadenas de misión, esto incluye scripts en c++ y SmartAI.
-| Milestone 5.0 | -- Traducciones, e inclusión de varios dentro de tablas y strings del emulador, ya sea en c++ o en sqls.
-| Milestone 6.0 | -- Arreglos en eventos de mundo, logros y varios, con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen en las demas milestones.
-| Milestone 7.0 | -- Código custom, utilitario y caracteristicas interesantes varias.
-
-
+| Milestone 0.0 | -- Características principales y adicionales para el
+ emulador
+| Milestone 1.0 | -- Jugabilidad en general, adecuaciones de código
+vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
+| Milestone 2.0 | -- Mejoras en Instances y dungeons, escencialmente
+para darles funcionalidad y detalles para tenerlas lo mas cercano a
+blizzlike, solucion de bugs relativos a las mismas, implementacion de
+} nuevas scripts.
+| Milestone 3.0 | -- Arreglos a Spells, sobre todo para estabilidad
+del pve y del pvp dentro de los reinos.
+| Milestone 4.0 | -- Arreglos en quests, y cadenas de misión, esto
+incluye scripts en c++ y SmartAI.
+| Milestone 5.0 | -- Traducciones, e inclusión de varios dentro de
+tablas y strings del emulador, ya sea en c++ o en sqls.
+| Milestone 6.0 | -- Arreglos en eventos de mundo, logros y varios,
+con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen
+en las demas milestones.
+| Milestone 7.0 | -- Código custom, utilitario y caracteristicas
+interesantes varias.
 
 ### Descripción Milestones
 
@@ -195,3 +204,4 @@ esta meta inmensa como equipo de desarrollo de ReanEmu.
 
 Saludos
 Staff Developers WoWRean
+
