@@ -17,14 +17,14 @@ ___
 
 |   Milestone   | Description |
 | ------------- | ----------- |
-| Milestone 0.0 | -- Características principales y adicionales para el emulador
-| Milestone 1.0 | -- Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
-| Milestone 2.0 | -- Mejoras en Instances y dungeons, escencialmente para darles funcionalidad y detalles para tenerlas lo mas cercano a blizzlike, solucion de bugs relativos a las mismas, implementacion de nuevas scripts.
-| Milestone 3.0 | -- Arreglos a Spells, sobre todo para estabilidad del pve y del pvp dentro de los reinos.
-| Milestone 4.0 | -- Arreglos en quests, y cadenas de misión, esto incluye scripts en c++ y SmartAI.
-| Milestone 5.0 | -- Traducciones, e inclusión de varios dentro de tablas y strings del emulador, ya sea en c++ o en sqls.
-| Milestone 6.0 | -- Arreglos en eventos de mundo, logros y varios, con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen en las demas milestones.
-| Milestone 7.0 | -- Código custom, utilitario y caracteristicas interesantes varias.
+| Milestone 0.0 | Características principales y adicionales para el emulador
+| Milestone 1.0 | Jugabilidad en general, adecuaciones de código vario en mapascomportamiento de bgs, arenas, players-units-pets y mejoras.
+| Milestone 2.0 | Mejoras en Instances y dungeons, escencialmente para darles funcionalidad y detalles para tenerlas lo mas cercano a blizzlike, solucion de bugs relativos a las mismas, implementacion de nuevas scripts.
+| Milestone 3.0 | Arreglos a Spells, sobre todo para estabilidad del pve y del pvp dentro de los reinos.
+| Milestone 4.0 | Arreglos en quests, y cadenas de misión, esto incluye scripts en c++ y SmartAI.
+| Milestone 5.0 | Traducciones, e inclusión de varios dentro de tablas y strings del emulador, ya sea en c++ o en sqls.
+| Milestone 6.0 | Arreglos en eventos de mundo, logros y varios, con SAI, c++ y sql para items, criaturas, spells, etc.Que no encajen en las demas milestones.
+| Milestone 7.0 | Código custom, utilitario y caracteristicas interesantes varias.
 
 
 ### Descripción Milestones
@@ -37,7 +37,6 @@ ___
 ###### Milestone 2.0
 - Raids
 - Dungeons
-
 ___
 ###### Milestone 3.0
 
@@ -71,8 +70,11 @@ tópico en concreto:
 ##### MilestoneNumero Nombre: Descripción
 ___
 >"2.X Instance: Boss texto, ids o sql"   -> 2.20.15 TheOculus: Eregos some tweaks"
+
 >"3.X Clase: Texto e ID"                 -> 3.51 DK: Raise ally (61999)"
+
 >"4.X Zona: Quest texto script ID o sql" -> 4.8.36 Tundra Boreal: Fix for quest Drake Hunt"
+
 >"7.X Custom: texto explicativo"         -> 7.11 Custom: Gs Command implementation"
 
 Los nombres de archivos que describan los cambios en sql, serán sin espacios, 
@@ -80,7 +82,9 @@ solo guiones bajos son aceptados y se ajustarán a la cronología en la carpeta 
 ya sea en mangos, characters o realm de acuerdo a lo que corresponda cada query o grupo en 
 concreto asi: año_mes_dia_numero mayor a 100_carpeta_texto_explicativo.sql
 > "2011_09_01_100_world_wintergrasp_turrets.sql"
+
 >"2012_07_14_100_characters_history.sql"
+
 >"2009_01_26_100_auth_premium.sql"
 
 Ojo, siempre igual a cien, para diferenciarlos de cualquier otro sql, incluyendo los de tc.
@@ -93,10 +97,14 @@ durante el proceso de desarrollo, y se hará así:
 ##### MilestoneNumero - Fecha: NombreFeature: Descripcion por Autor
 ___
 >"0.19 - 19/04/2012: SOAP server information commands por Eilo"
+
 >"1.3  - 05/10/2011: Join LFG channel without being on a city por Opcode187"
+
 >"2.2.89 - 06/08/2012: ICC: TheLichKing temp fix to height issues by Jildor"
 >"3.71 - 18/07/2012: Shaman: Grounding totem (8177) also absorbs polymorph effect por Vincent-Michael"
+
 >"4.9.8  - 04/10/2012: Howling Fjord: Scare the guano out of them! por Muzashi"
+
 
 Otra cosa que hay que tomar en cuenta es el hecho de que si algo es de código de otra 
 persona  o equipo de personas en concreto hay que mencionarlo, y si nosotros hacemos 
@@ -105,7 +113,7 @@ y el de ReanEmu,  sobre todo si en una script se le ha hecho mejoras notables y 
 
  * Copyright (C) 2008-2012 cMANGOS <https://github.com/cmangos/>
  * Copyright (C) 2010-2012 WoWRean <http://www.wowrean.es/>
- * Copyright (C) 2009-2012 Eilo <https://github.com/JarDv/>
+ * Copyright (C) 2009-2012 JarDv <https://github.com/JarDv/>
 
 
 ___
