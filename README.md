@@ -16,9 +16,9 @@ desarrolladores de este proyecto.
 
 Gracias y creditos a quienes hacen este proyecto posible:
 
- Copyright (C) Jar (https://github.com/JarDv)
- Copyright (C) Reisa (https://github.com/reisa089)
- Copyright (C) ReanEmu (https://github.com/ComunidadRean/ReanEmu243)
+ Copyright (C) Jar (https://github.com/JarDv)  
+ Copyright (C) Reisa (https://github.com/reisa089)  
+ Copyright (C) ReanEmu (https://github.com/ComunidadRean/ReanEmu243)  
  
 ## Informacion adicional
 
